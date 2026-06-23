@@ -1,0 +1,9 @@
+tensorflow>=2.9.0
+opencv-python>=4.6.0
+numpy>=1.21.0
+protobuf>=3.20.0
+
+# TF Object Detection API — install separately after cloning tensorflow/models:
+#   cd Tensorflow/models/research
+#   protoc object_detection/protos/*.proto --python_out=.
+#   python setup.py install && pip install .
